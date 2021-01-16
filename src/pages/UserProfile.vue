@@ -21,7 +21,7 @@
 
 <script>
 import { NavTabsTable, NavTabsCard } from "@/components";
-import { db , namesRef } from "../firebase";
+import { db , todosRef } from "../firebase";
 
 export default {
   components: {
@@ -39,8 +39,9 @@ export default {
         title: this.title,
         completed: false
       }
-      namesRef.
-      console.log(`title = ${this.title}`);
+      todosRef.add(x);
+      this.title = "";
+      // console.log(`title = ${this.title}`);
     }
   }
 };
