@@ -13,50 +13,12 @@ const routes = [
   {
     path: "/",
     component: DashboardLayout,
-    redirect: "/dashboard",
+    redirect: "/todo",
     children: [
       {
-        path: "dashboard",
-        name: "Dashboard",
-        component: Dashboard
-      },
-      {
-        path: "user",
-        name: "User Profile",
+        path: "todo",
+        name: "Todo List",
         component: UserProfile
-      },
-      {
-        path: "table",
-        name: "Table List",
-        component: TableList
-      },
-      {
-        path: "typography",
-        name: "Typography",
-        component: Typography
-      },
-      {
-        path: "icons",
-        name: "Icons",
-        component: Icons
-      },
-      {
-        path: "maps",
-        name: "Maps",
-        meta: {
-          hideFooter: true
-        },
-        component: Maps
-      },
-      {
-        path: "notifications",
-        name: "Notifications",
-        component: Notifications
-      },
-      {
-        path: "upgrade",
-        name: "Upgrade to PRO",
-        component: UpgradeToPRO
       }
     ]
   }

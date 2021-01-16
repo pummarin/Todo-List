@@ -1,23 +1,25 @@
 <template>
-  <div class="content">
-    <div class="md-layout">
-      <div class="md-layout-item md-medium-size-100 md-size-66">
-        <edit-profile-form data-background-color="green"> </edit-profile-form>
-      </div>
-      <div class="md-layout-item md-medium-size-100 md-size-33">
-        <user-card> </user-card>
-      </div>
-    </div>
+  <div class="md">
+    <nav-tabs-card>
+      <template slot="content">
+        <span class="md-nav-tabs-title">Todo:</span>
+        <md-tabs class="md-success" md-alignment="left">
+          <md-tab id="tab-home" md-label="Bugs" md-icon="bug_report">
+            <nav-tabs-table></nav-tabs-table>
+          </md-tab>
+        </md-tabs>
+      </template>
+    </nav-tabs-card>
   </div>
 </template>
 
 <script>
-import { EditProfileForm, UserCard } from "@/pages";
+import { NavTabsTable, NavTabsCard } from "@/components";
 
 export default {
   components: {
-    EditProfileForm,
-    UserCard
+    NavTabsTable,
+    NavTabsCard
   }
 };
 </script>
