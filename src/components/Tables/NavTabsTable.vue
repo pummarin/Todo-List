@@ -2,7 +2,7 @@
   <div>
     <md-table>
       <md-table-row v-for="item in todos" v-bind:key="item.id">
-        <md-table-cell>
+        <md-table-cell class="leo-left">
           <input
             class="md-checkbox"
             v-model="item.completed"
@@ -10,7 +10,7 @@
             @click="completingtodo(item)"
           />
         </md-table-cell>
-        <md-table-cell>
+        <md-table-cell class="leo-center">
           <div v-if="editIndex === item.id">
             <md-field>
               <label>Edit todos: </label>
@@ -28,7 +28,7 @@
             <div v-else>{{ item.title }}</div>
           </div>
         </md-table-cell>
-        <md-table-cell>
+        <md-table-cell class="leo-right">
           <md-button
             class="md-just-icon md-simple md-primary"
             @click="editTodo(item)"
@@ -118,3 +118,19 @@ export default {
   },
 };
 </script>
+<style >
+.leo-left {
+  min-width: 10%;
+  max-width: 10%;
+}
+.leo-center {
+  min-width: 70%;
+  max-width: 70%;
+  width: 100%;
+}
+.leo-right {
+  min-width: 20%;
+  max-width: 20%;
+}
+
+</style>
