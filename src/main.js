@@ -17,6 +17,8 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import App from "./App";
+import "./firebase";
+import VueFire from "vuefire"
 
 // router setup
 import routes from "./routes/routes";
@@ -39,6 +41,7 @@ const router = new VueRouter({
 
 Vue.prototype.$Chartist = Chartist;
 
+Vue.use(VueFire);
 Vue.use(VueRouter);
 Vue.use(MaterialDashboard);
 Vue.use(GlobalComponents);

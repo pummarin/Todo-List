@@ -9,7 +9,7 @@
       <sidebar-link to="/todo">
         <md-icon>person</md-icon>
         <p>Todo List</p>
-      </sidebar-link>
+      </sidebar-link>      
     </side-bar>
     <div class="main-panel">
       <top-navbar></top-navbar>
