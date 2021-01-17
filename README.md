@@ -45,7 +45,6 @@
 <img src="https://github.com/pummarin/Todo-List/blob/main/public/picture/edit3.png" >
 
 4. สามารถติ๊กเพื่อบอกว่าได้ทำรายการนี้ไปแล้ว
-<img src="https://github.com/pummarin/Todo-List/blob/main/public/picture/delete2.png" >
 <img src="https://github.com/pummarin/Todo-List/blob/main/public/picture/4.png" >
 
 ## Browser Support
