@@ -2,9 +2,9 @@
 # Dev Assignment
 - b6003296 นายภุมรินทร์ เพียวสูงเนิน
 - สิ่งที่ Todo List Web Application สามารถทำได้
-  1.เพิ่ม Todo
-  2.ลบ Todo
-  3.แก้ไข Todo
+1.เพิ่ม Todo
+2.ลบ Todo
+3.แก้ไข Todo
 
 # Business Use Case Diagram
 
