@@ -4,8 +4,8 @@
       <nav>
         <ul>
           <li>
-            <a href="https://www.creative-tim.com"
-              >Material Dashboard By Creative Tim</a
+            <a href="https://www.creative-tim.com">
+              Material Dashboard By Creative Tim</a
             >
           </li>
           <li>
@@ -14,11 +14,13 @@
         </ul>
       </nav>
       <div class="copyright text-center">
-        <a href="https://www.facebook.com/leo.master.908/"> Facebook </a>
+        <a href="https://www.facebook.com/leo.master.908/"
+          ><md-icon style="color: blue">facebook</md-icon> Pummarin
+        </a>
         &copy; {{ new Date().getFullYear() }}
         <a href="https://github.com/pummarin/Todo-List" target="_blank"
-          >Made By Pummarin</a
-        >, With Vue&Firebase
+          >By Pummarin/Todo-List</a
+        >,Made With Vue&Firebase
       </div>
     </div>
   </footer>
@@ -26,4 +28,5 @@
 <script>
 export default {};
 </script>
-<style></style>
+<style>
+</style>
