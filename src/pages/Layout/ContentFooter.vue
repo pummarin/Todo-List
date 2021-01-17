@@ -4,30 +4,21 @@
       <nav>
         <ul>
           <li>
-            <a href="https://www.creative-tim.com">Creative Tim</a>
+            <a href="https://www.creative-tim.com"
+              >Material Dashboard By Creative Tim</a
+            >
           </li>
           <li>
-            <a href="https://creative-tim.com/presentation">
-              About Us
-            </a>
-          </li>
-          <li>
-            <a href="http://blog.creative-tim.com">
-              Blog
-            </a>
-          </li>
-          <li>
-            <a href="https://www.creative-tim.com/license">
-              Licenses
-            </a>
+            <a href="https://www.creative-tim.com/license"> Licenses </a>
           </li>
         </ul>
       </nav>
       <div class="copyright text-center">
+        <a href="https://www.facebook.com/leo.master.908/"> Facebook </a>
         &copy; {{ new Date().getFullYear() }}
-        <a href="https://www.creative-tim.com/?ref=mdf-vuejs" target="_blank"
-          >Creative Tim</a
-        >, made with <i class="fa fa-heart heart"></i> for a better web
+        <a href="https://github.com/pummarin/Todo-List" target="_blank"
+          >Made By Pummarin</a
+        >, With Vue&Firebase
       </div>
     </div>
   </footer>
