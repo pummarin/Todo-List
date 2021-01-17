@@ -1,6 +1,6 @@
 ## User Diagram
 
-<img src="https://www.i-pic.info/i/D1bV10408.png" >
+<img src="https://github.com/pummarin/Todo-List/blob/main/public/picture/user.png" >
 
 ## Quick start
 
