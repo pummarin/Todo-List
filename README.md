@@ -5,6 +5,7 @@
     1. เพิ่ม Todo
     2. ลบ Todo
     3. แก้ไข Todo
+    4. สามารถติ๊กเพื่อบอกว่าได้ทำรายการนี้ไปแล้ว
 
 # Business Use Case Diagram
 
@@ -28,7 +29,15 @@
 - Clone the repo: `git clone https://github.com/pummarin/Todo-List.git`.
 
 ## Demo
-- Todo List: `https://todo-70644.web.app/?fbclid=IwAR11F2QWRga-zbRfyY6y6ihxdDij9VTM_TooH9xDTCfD5OpwXgodx8XkwM4#/todo`
+- Todo List: `https://todo-70644.web.app/#/todo`
+
+1. เพิ่ม Todo
+
+2. ลบ Todo
+
+3. แก้ไข Todo
+
+4. สามารถติ๊กเพื่อบอกว่าได้ทำรายการนี้ไปแล้ว
 
 ## Browser Support
 
