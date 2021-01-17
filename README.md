@@ -1,6 +1,18 @@
-## User Diagram
+# Todo List Web Application
+# Dev Assignment
+- b6003296 นายภุมรินทร์ เพียวสูงเนิน
+- สิ่งที่ Todo List Web Application สามารถทำได้
+  1.เพิ่ม Todo
+  2.ลบ Todo
+  3.แก้ไข Todo
+
+# Business Use Case Diagram
 
 <img src="https://github.com/pummarin/Todo-List/blob/main/public/picture/user.png" >
+
+# Application architechture
+- Front-end: Vue.js
+- Back-end: Firebase/Firestore
 
 ## Quick start
 
@@ -16,7 +28,7 @@
 - Clone the repo: `git clone https://github.com/pummarin/Todo-List.git`.
 
 ## Demo
--Todo List: `https://todo-70644.web.app/?fbclid=IwAR11F2QWRga-zbRfyY6y6ihxdDij9VTM_TooH9xDTCfD5OpwXgodx8XkwM4#/todo`
+- Todo List: `https://todo-70644.web.app/?fbclid=IwAR11F2QWRga-zbRfyY6y6ihxdDij9VTM_TooH9xDTCfD5OpwXgodx8XkwM4#/todo`
 
 ## Browser Support
 
