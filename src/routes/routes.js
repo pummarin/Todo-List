@@ -1,6 +1,6 @@
 import DashboardLayout from "@/pages/Layout/DashboardLayout.vue";
 
-import UserProfile from "@/pages/UserProfile.vue";
+import Todo from "@/pages/Todo.vue";
 
 
 const routes = [
@@ -12,7 +12,7 @@ const routes = [
       {
         path: "todo",
         name: "Todo List",
-        component: UserProfile
+        component: Todo
       }
     ]
   }
